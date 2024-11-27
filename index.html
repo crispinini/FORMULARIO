@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this survey to help us improve our services.</p>
+    
+    <form id="survey-form" action="https://register-demo.freecodecamp.org">
+        <!-- Campo para el nombre -->
+        <label id="name-label" for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+
+        <!-- Campo para el correo electrónico -->
+        <label id="email-label" for="email">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+
+        <!-- Campo para el número -->
+        <label id="number-label" for="number">Number:</label>
+        <input id="number" type="number" min="1" max="100" placeholder="Enter a number" required>
+
+        <!-- Elemento desplegable -->
+        <label for="dropdown">Choose an option:</label>
+        <select id="dropdown" required>
+            <option value="">Select an option</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+        </select>
+
+        <!-- Botones de radio -->
+        <fieldset>
+            <legend>Choose your favorite fruit:</legend>
+            <label>
+                <input type="radio" name="fruit" value="apple" required> Apple
+            </label>
+            <label>
+                <input type="radio" name="fruit" value="banana"> Banana
+            </label>
+        </fieldset>
+
+        <!-- Casillas de verificación -->
+        <fieldset>
+            <legend>Select your hobbies:</legend>
+            <label>
+                <input type="checkbox" value="reading"> Reading
+            </label>
+            <label>
+                <input type="checkbox" value="traveling"> Traveling
+            </label>
+        </fieldset>
+
+        <!-- Textarea para comentarios -->
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" placeholder="Enter your comments here"></textarea>
+
+        <!-- Botón de envío -->
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+</html>
