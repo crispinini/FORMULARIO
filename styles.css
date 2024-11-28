@@ -29,7 +29,7 @@ input, select, textarea, button {
     width: 100%; /* Ancho completo para todos los campos */
     padding: 10px; /* Espaciado interno */
     margin-bottom: 15px; /* Espacio entre campos */
-    border: 1px solid #ccc; /* Borde gris claro */
+    border: 1px solid #c70808; /* Borde gris claro */
     border-radius: 5px; /* Bordes redondeados */
 }
 
